@@ -48,6 +48,6 @@
         android:layout_height="match_parent"
         android:text="Submit"
         android:textColor="@color/white"
-        android:textSize="25sp"
+        android:textSize="20sp"
         app:sub_btn_duration="4000" />
 </LinearLayout>

@@ -69,7 +69,6 @@ public class SubmitButton extends TextView {
     private int mInitBtnColor;
     private int mLineColor;
     private int mTickColor;
-    private int mRippleColor;
 
     public SubmitButton(Context context) {
         super(context);
@@ -193,7 +192,7 @@ public class SubmitButton extends TextView {
         mTickPaint.setColor(mTickColor);
         mTickPaint.setStyle(Paint.Style.STROKE);
         mRipplePaint = new Paint();
-        mRippleColor = typeArray.getColor(R.styleable.SubmitButton_sub_btn_ripple_color,
+        int mRippleColor = typeArray.getColor(R.styleable.SubmitButton_sub_btn_ripple_color,
                 ContextCompat.getColor(getContext(), R.color.sub_btn_ripple));
         mRipplePaint.setColor(mRippleColor);
         mRipplePaint.setAntiAlias(true);
