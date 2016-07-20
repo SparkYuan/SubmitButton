@@ -2,9 +2,9 @@
 A cool and elegant Submit Button
 
 ## Demo
-![Markdown]()
+![Demo](https://github.com/SparkYuan/SubmitButton/blob/master/pic/submitbutton.gif)
 
-##Attributes
+## Attributes
 
 ```xml
  <com.spark.submitbutton.SubmitButton
@@ -19,6 +19,11 @@ A cool and elegant Submit Button
         app:sub_btn_tick_color="@color/white" />
 
 ```
+### Notice
+- SubmitButton is a subclass of TextView, so almost all attributes of TextView can be used for SubmitButton.
+- The width and height of this SubmitButton is measured by the text size and its **layout_width** and **layout_height** must be **match_parent**.
+- The default gravity of the text in this SubmitButton is **center** and can not be changed.
+
 
 ## Download
 
