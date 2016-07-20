@@ -16,6 +16,7 @@
     <com.spark.submitbutton.SubmitButton
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        app:sub_btn_tick_color="@color/yellow"
         app:sub_btn_duration="1000" />
 
 
@@ -28,7 +29,7 @@
         app:sub_btn_duration="2000"
         app:sub_btn_line_color="@color/colorPrimary"
         app:sub_btn_ripple_color="@color/colorPrimary"
-        app:sub_btn_tick_color="@color/gray" />
+        app:sub_btn_tick_color="@color/white" />
 
     <com.spark.submitbutton.SubmitButton
         android:layout_width="match_parent"
@@ -39,7 +40,7 @@
         app:sub_btn_duration="3000"
         app:sub_btn_line_color="@color/colorPrimary"
         app:sub_btn_ripple_color="@color/colorPrimary"
-        app:sub_btn_tick_color="@color/gray" />
+        app:sub_btn_tick_color="@color/white" />
 
     <com.spark.submitbutton.SubmitButton
         android:id="@+id/btn3"

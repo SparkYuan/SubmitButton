@@ -6,6 +6,7 @@
     <color name="sub_btn_ripple">#eff0f2</color>
     <color name="sub_btn_tick">#eff0f2</color>
     <color name="white">#ffffff</color>
-    <color name="gray">#a8cece</color>
+    <color name="gray">#627676</color>
+    <color name="yellow">#eef26c</color>
     <color name="black">#000000</color>
 </resources>
