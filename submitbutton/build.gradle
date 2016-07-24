@@ -4,7 +4,7 @@ apply plugin: 'com.github.dcendents.android-maven'
 
 
 group = 'me.spark' // Change this to match your package name
-version = '1.0.0' // Change this to match your version number
+version = '1.0.1' // Change this to match your version number
 
 
 android {
@@ -15,7 +15,7 @@ android {
         minSdkVersion 15
         targetSdkVersion 23
         versionCode 1
-        versionName "1.0"
+        versionName "1.0.1"
     }
     buildTypes {
         release {
@@ -64,8 +64,8 @@ bintray {
         desc = "A cool and elegant Submit Button."
 
         version {
-            name = '1.0.0'
-            desc = 'A cool and elegant Submit Button.'
+            name = '1.0.1'
+            desc = 'A cool, practical and elegant Submit Button.'
             vcsTag = 'Android,Submit,Button,Animator,Animation'
         }
 

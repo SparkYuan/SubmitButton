@@ -361,7 +361,7 @@ public class SubmitButton extends TextView {
         rightEndPath.cubicTo(cxRight + 2 * mLineRadius, cyRight - 2 * mLineRadius,
                 cxRight + 2 * mLineRadius,
                 cyRight + 2 * mLineRadius,
-                (float) (cxLeft + mRecWidth / 2 -  1.5 * mTickLen),
+                (float) (cxLeft + mRecWidth * 0.48 -  1.5 * mTickLen),
                 (float) (cyLeft - mRadius * 0.25));
         final PathMeasure mPathMeasureRightEnd = new PathMeasure(rightEndPath, false);
         Path rightStartPath = new Path();
@@ -370,7 +370,7 @@ public class SubmitButton extends TextView {
                 cyRight - 2 * mLineRadius,
                 cxRight + 2 * mLineRadius,
                 cyRight + 2 * mLineRadius,
-                cxLeft + mRecWidth / 2,
+                (float) (cxLeft + mRecWidth * 0.48),
                 (float) (cyLeft + mTickLen * Math.cos(45)));
         final PathMeasure mPathMeasureRightStart = new PathMeasure(rightStartPath, false);
         Path leftEndPath = new Path();
@@ -378,7 +378,7 @@ public class SubmitButton extends TextView {
         leftEndPath.cubicTo(cxLeft - 2 * mLineRadius, cyRight - 2 * mLineRadius,
                 cxLeft - 2 * mLineRadius,
                 cyLeft + 2 * mLineRadius,
-                cxLeft + mRecWidth / 2 + 2 * mTickLen,
+                (float) (cxLeft + mRecWidth * 0.48 + 2 * mTickLen),
                 cyLeft - mTickLen);
 
         Path leftStartPath = new Path();
@@ -386,7 +386,7 @@ public class SubmitButton extends TextView {
         leftStartPath.cubicTo(cxLeft - 3 * mLineRadius, cyRight - 3 * mLineRadius,
                 cxLeft - 3 * mLineRadius,
                 cyLeft + 3 * mLineRadius,
-                cxLeft + mRecWidth / 2,
+                (float) (cxLeft + mRecWidth * 0.48),
                 (float) (cyLeft + mTickLen * Math.cos(45)));
 
         final PathMeasure mPathMeasureLeftEnd = new PathMeasure(leftEndPath, false);

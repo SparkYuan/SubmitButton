@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/CoolButton.iml" filepath="$PROJECT_DIR$/CoolButton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SubmitButton.iml" filepath="$PROJECT_DIR$/SubmitButton.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/submitbutton/submitbutton.iml" filepath="$PROJECT_DIR$/submitbutton/submitbutton.iml" />
     </modules>
