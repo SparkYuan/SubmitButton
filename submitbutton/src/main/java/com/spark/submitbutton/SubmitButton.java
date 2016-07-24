@@ -129,10 +129,10 @@ public class SubmitButton extends TextView {
                     tickColorAnim.cancel();
                     startAnimation();
                 }
-
                 break;
             }
         }
+        super.onTouchEvent(event);
         return true;
     }
 

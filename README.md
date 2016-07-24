@@ -41,7 +41,7 @@ Step 2. Add the dependency:
 
 ```gradle
 dependencies {
-  compile 'me.spark:submitbutton:1.0.0'
+  compile 'me.spark:submitbutton:1.0.1'
 }
 ```
 
