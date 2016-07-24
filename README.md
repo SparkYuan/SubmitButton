@@ -1,5 +1,5 @@
 # SubmitButton
-A cool and elegant Submit Button
+A practical, cool and elegant Submit Button
 
 ## Demo
 ![Demo](https://github.com/SparkYuan/SubmitButton/blob/master/pic/submitbutton.gif)
@@ -27,7 +27,7 @@ A cool and elegant Submit Button
 
 ## Download
 
-Step 1. Configure your module-level build.gradle to include the follow repository:
+Step 1. Configure your project-level build.gradle to include the follow repository:
 
 ```gradle
 repositories {
