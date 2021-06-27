@@ -111,25 +111,27 @@ public class SubmitButton extends TextView {
 
     @Override
     public boolean onTouchEvent(MotionEvent event) {
-        switch (event.getAction()) {
-            case MotionEvent.ACTION_UP: {
-                if (mStatus.equals(INIT)) {
-                    startAnimation();
-                } else {
-                    mStatus = INIT;
-                    rippleAnimator.cancel();
-                    rippleAlphaAnimator.cancel();
-                    linePosXAnim.cancel();
-                    sweepAngAnim.cancel();
-                    tickRightEndAnim.cancel();
-                    tickRightStartAnim.cancel();
-                    tickLeftEndAnim.cancel();
-                    tickLeftStartAnim.cancel();
-                    btnBgColorAnim.cancel();
-                    tickColorAnim.cancel();
-                    startAnimation();
+        if(isClickable()) {
+            switch (event.getAction()) {
+                case MotionEvent.ACTION_UP: {
+                    if (mStatus.equals(INIT)) {
+                        startAnimation();
+                    } else {
+                        mStatus = INIT;
+                        rippleAnimator.cancel();
+                        rippleAlphaAnimator.cancel();
+                        linePosXAnim.cancel();
+                        sweepAngAnim.cancel();
+                        tickRightEndAnim.cancel();
+                        tickRightStartAnim.cancel();
+                        tickLeftEndAnim.cancel();
+                        tickLeftStartAnim.cancel();
+                        btnBgColorAnim.cancel();
+                        tickColorAnim.cancel();
+                        startAnimation();
+                    }
+                    break;
                 }
-                break;
             }
         }
         super.onTouchEvent(event);
