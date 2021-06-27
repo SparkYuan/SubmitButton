@@ -8,16 +8,17 @@ A practical, cool and elegant Submit Button
 
 ```xml
  <com.spark.submitbutton.SubmitButton
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Submit"
-        android:textColor="@color/gray"
-        app:sub_btn_background="@color/white"
-        app:sub_btn_duration="3000"
-        app:sub_btn_line_color="@color/green"
-        app:sub_btn_ripple_color="@color/green"
-        app:sub_btn_tick_color="@color/white" />
-
+            android:layout_width="150dp" //set your own width accordingly
+            android:layout_height="40dp" //set your own height accordingly
+            android:text="Submit"
+            android:textColor="#A4A4A4" //gray
+            app:sub_btn_background="#FFFFFF" //white
+            app:sub_btn_duration="3000"
+            app:sub_btn_line_color="#82FA58" //green
+            app:sub_btn_ripple_color="#82FA58" //green
+            app:sub_btn_tick_color="#FFFFFF" //white
+                                      />
+  //For more color codes, go to https://html-color-codes.info/
 ```
 ### Notice
 - SubmitButton is a subclass of TextView, so almost all attributes of TextView can be used for SubmitButton.
